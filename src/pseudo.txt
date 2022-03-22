@@ -1,0 +1,14 @@
+1. destenationPoint = getDestentaionPoint()
+2. vertexOrder = getVertexOrder(this.CurrentPoint,destenationPoint)
+3. currentDestentaion = vertexOrder[0]
+4. while(this.CurrentPoint != destenationPoint){
+    while(this.CurrentPoint != currentDestentaion){
+        drive to currentDestentaion
+    }
+    vertexOrder = getVertexOrder(this.CurrentPoint,destenationPoint)
+    currentDestentaion = vertexOrder[0]
+}
+
+//When getVertexOrder() uses BF Algorethem and gives prioritization to the path returned.
+
+
